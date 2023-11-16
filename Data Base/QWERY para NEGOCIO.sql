@@ -1,0 +1,6 @@
+SELECT NegocioID, CUIT, RazonSocial, Dirección FROM NEGOCIO WHERE NegocioID = 45254205
+
+SET IDENTITY_INSERT NEGOCIO ON
+
+INSERT INTO NEGOCIO(NegocioID, CUIT, RazonSocial, Dirección) VALUES
+(45254205, 2045254206, 'Los dos Chinos', 'Tordo 132');

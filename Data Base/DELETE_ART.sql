@@ -1,0 +1,8 @@
+USE [CHINO-DB]
+GO
+
+DELETE FROM [dbo].[ARTICULOS]
+      WHERE [ArticuloID] = 781159091483
+GO
+
+
